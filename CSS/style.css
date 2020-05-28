@@ -7,6 +7,7 @@
     padding-right: 0;
     padding-left: 0;
     float:left;
+    
   }
 
 
@@ -17,6 +18,7 @@ body{
     color:white !important;
     font-family: 'Raleway', sans-serif !important;
     font-style: normal !important;
+    list-style:none !important;
     
     
 
@@ -45,7 +47,7 @@ body{
 
     white-space: nowrap;
     overflow-x: hidden;
-    max-height: 950px;
+    max-height: 1090px;
 }
 
 /*el css del scroll junto al .scroll */
@@ -85,7 +87,7 @@ body{
     margin:10px;
     margin: 10px;
     padding-right: 5px;
-    cursor:pointer;
+    
 }
 
 .h1{
@@ -99,4 +101,39 @@ body{
     color:#00fd5e;
     font-size: xx-large;
     text-shadow: 2px 2px #ff00ea;
+}
+
+
+.botondecaracter{
+   
+    border-radius: 44px 44px 44px 44px;
+    width:300px;
+    border: 0px solid #000000;
+
+
+}
+
+.botondecaracter:hover{
+    width:300px;
+    box-shadow: 0px 0px 23px 6px rgba(224,11,224,1) ;
+    background-color: rgb(224, 11, 224) !important;
+
+    
+}
+
+.botondecaracter:active{
+    width:300px;
+    color:black;
+    -webkit-box-shadow: inset 4px 28px 49px 132px rgba(250,23,250,0.74);
+    -moz-box-shadow: inset 4px 28px 49px 132px rgba(250,23,250,0.74);
+    box-shadow: inset 4px 28px 49px 132px rgba(250,23,250,0.74);
+    
+}
+
+
+.footerraro{
+    text-decoration: none;
+    list-style:none !important;
+    list-style-type:none;
+    text-align: center;
 }
