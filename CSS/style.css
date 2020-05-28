@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Rock+Salt&display=swap');
+
+
+
+[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+    float:left;
+  }
+
+
+
+body{
+    text-decoration: none !important;
+    background-color: black !important;
+    color:white !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-style: normal !important;
+    
+    
+
+}
+
+.mitad{
+    position:relative;
+
+
+}
+
+.otramitad{
+    position:relative;
+    padding:2px;
+    align-items: center;
+    float:center;
+    text-align:center;
+
+}
+
+
+.scroll{
+
+    overflow:scroll;
+    max-width: max-content;
+
+    white-space: nowrap;
+    overflow-x: hidden;
+    max-height: 950px;
+}
+
+/*el css del scroll junto al .scroll */
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-track{
+
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 0, 234); 
+    background-image: -webkit-linear-gradient(90deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)
+}
+
+/*fin del css del scroll junto al .scroll */
+
+
+.botoneras{
+    align-items: center;
+    float:center;
+    text-align:center;
+}
+
+
+
+.separador{
+    padding:10px;
+}
+
+.logo{
+    align-items: right;
+    width: 325px;
+    height: auto;
+    margin:10px;
+    margin: 10px;
+    padding-right: 5px;
+    cursor:pointer;
+}
+
+.h1{
+    text-align:left;
+    color:rgb(255, 0, 234);
+}
+
+.titulos{
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Rock Salt', cursive;
+    color:#00fd5e;
+    font-size: xx-large;
+    text-shadow: 2px 2px #ff00ea;
+}
