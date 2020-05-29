@@ -97,6 +97,15 @@ body{
 
     
 }
+.logo:hover{
+    filter: saturate(180%);
+    
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+
 
 .h1{
     text-align:left;
@@ -155,6 +164,13 @@ body{
 
 .nav{
     position:relative;
+    
+
+
+	padding:100%;
+	color:#fff;
+	text-decoration: none;
+
 
     margin: 11px;
     padding: 16px;
