@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap');
 
+
 [class*="col-"] {
     padding-right: 0;
     padding-left: 0;
@@ -136,11 +137,9 @@ body{
 }
 
 .botondecaracter:active{
-    width:300px;
-    color:black;
-    -webkit-box-shadow: inset 4px 28px 49px 132px rgba(250,23,250,0.74);
-    -moz-box-shadow: inset 4px 28px 49px 132px rgba(250,23,250,0.74);
-    box-shadow: inset 4px 28px 49px 132px rgba(250,23,250,0.74);
+    width:290px;
+    box-shadow: 0px 0px 23px 6px rgb(43, 255, 0) ;
+
     
 }
 
@@ -171,14 +170,29 @@ body{
     border: 1px solid rgb(212, 171, 212);
     box-shadow:  rgb(192, 161, 192);
     background-color: #000000;
+    color:rgba(224,11,224,1);
   }
   .active-purple-3 input[type=text] {
     border: 1px solid  rgba(224,11,224,1);
     box-shadow: 0 0 0 1px  rgba(224,11,224,1);
     background-color: #000000;
+
   }
 /*termina el navbar */
 
 .escritura{
     font-family: 'Hind Guntur', sans-serif;
+
 }
+
+.barra::-webkit-meter-optimum-value {
+    background: rgb(255, 0, 255);
+}
+
+
+.barra::-webkit-meter-suboptimum-value {
+    background: rgb(194, 66, 194);
+}
+
+
+
