@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Rock+Salt&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap');
 
 [class*="col-"] {
     padding-right: 0;
@@ -37,9 +37,9 @@ body{
 .otramitad{
     position:relative;
     /*padding:1px; */
-    align-items: center;
-    float:center;
-    text-align:center;
+    align-items: left;
+    float:left;
+    text-align:left;
 
 }
 
@@ -90,7 +90,7 @@ body{
 
 .logo{
     align-items: right;
-    width: 270px;
+    width: 280px;
     height: auto;
     margin:10px;
     margin: 10px;
@@ -129,7 +129,7 @@ body{
 }
 
 .botondecaracter:hover{
-    width:235px;
+    width:290px;
     box-shadow: 0px 0px 23px 6px rgba(224,11,224,1) ;
     background-color: rgb(224, 11, 224) !important;
 
@@ -179,3 +179,7 @@ body{
     background-color: #000000;
   }
 /*termina el navbar */
+
+.escritura{
+    font-family: 'Hind Guntur', sans-serif;
+}
