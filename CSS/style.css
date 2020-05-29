@@ -10,6 +10,9 @@
     
   }
 
+.container{
+    width: 75%;
+  }
 
 
 body{
@@ -19,6 +22,7 @@ body{
     font-family: 'Raleway', sans-serif !important;
     font-style: normal !important;
     list-style:none !important;
+
     
     
 
@@ -32,7 +36,7 @@ body{
 
 .otramitad{
     position:relative;
-    padding:2px;
+    /*padding:1px; */
     align-items: center;
     float:center;
     text-align:center;
@@ -42,13 +46,17 @@ body{
 
 .scroll{
 
-    overflow:scroll;
-    max-width: max-content;
+    overflow:auto;
+    max-width: 100%;
 
     white-space: nowrap;
     overflow-x: hidden;
     max-height: 1090px;
+
+    
 }
+
+
 
 /*el css del scroll junto al .scroll */
 
@@ -82,7 +90,7 @@ body{
 
 .logo{
     align-items: right;
-    width: 325px;
+    width: 270px;
     height: auto;
     margin:10px;
     margin: 10px;
@@ -102,19 +110,26 @@ body{
     font-size: xx-large;
     text-shadow: 2px 2px #ff00ea;
 }
+.titulos2{
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Rock Salt', cursive;
+    color:#00fd5e;
+    font-size: small;
+    text-shadow: 2px 2px #ff00ea;
+}
 
 
 .botondecaracter{
    
     border-radius: 44px 44px 44px 44px;
-    width:300px;
+    width:200px;
     border: 0px solid #000000;
 
 
 }
 
 .botondecaracter:hover{
-    width:300px;
+    width:235px;
     box-shadow: 0px 0px 23px 6px rgba(224,11,224,1) ;
     background-color: rgb(224, 11, 224) !important;
 
@@ -137,3 +152,30 @@ body{
     list-style-type:none;
     text-align: center;
 }
+
+
+
+.nav{
+    position:relative;
+
+    margin: 10px;
+    padding: 15px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 50px;
+    align-items: right;
+
+}
+
+/*comienza el navbar */
+.active-purple-4 input[type=text]:focus:not([readonly]) {
+    border: 1px solid rgba(224,11,224,1);
+    box-shadow:  rgba(224,11,224,1);
+    background-color: #000000;
+  }
+  .active-purple-3 input[type=text] {
+    border: 1px solid  rgba(224,11,224,1);
+    box-shadow: 0 0 0 1px  rgba(224,11,224,1);
+    background-color: #000000;
+  }
+/*termina el navbar */
