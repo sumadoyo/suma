@@ -96,9 +96,9 @@ body{
     width: 280px;
     height: auto;
     margin-top:7px;
-    transition: 0.5s;
+    transition: 0.43s;/*velocidad en girar la foto */
 
-    animation-duration: 1s;
+    animation-duration: 0.5s; /*velocidad de foto en colocarse */
     animation-name: slidein;
     
   }
@@ -122,13 +122,162 @@ body{
 }
 
 
-
+/*principio letrass chinas */
 
 .h1{
     text-align:left;
     color:rgb(255, 0, 234);
+    animation-iteration-count: initial;
+
+    color: #ffffff;
+
+  font: normal 140px Varela Round, sans-serif;
+
+  height: 140px;
+
+  left: 0;
+
+  letter-spacing: 5px;
+
+  text-align: left;
+
+  text-transform: uppercase;
+
+  width: 100%;
+
+  animation: move linear 2000ms infinite;
+
+  z-index: 2
 
 }
+
+/*Animación para rotar las sombras*/
+
+@keyframes move {
+
+  0% {
+
+    text-shadow:
+
+      4px -4px 0 #da0641,
+
+      3px -3px 0 #da0641,
+
+      2px -2px 0 #da0641,
+
+      1px -1px 0 #da0641,
+
+      -4px 4px 0 #13f1fc,
+
+      -3px 3px 0 #13f1fc,
+
+      -2px 2px 0 #13f1fc,
+
+      -1px 1px 0 #13f1fc
+
+    ;
+
+  }
+
+  25% {
+
+    text-shadow:
+
+      -4px -4px 0 #13f1fc,
+
+      -3px -3px 0 #13f1fc,
+
+      -2px -2px 0 #13f1fc,
+
+      -1px -1px 0 #13f1fc,
+
+      4px 4px 0 #da0641,
+
+      3px 3px 0 #da0641,
+
+      2px 2px 0 #da0641,
+
+      1px 1px 0 #da0641
+
+    ;
+
+  }
+
+  50% {
+
+    text-shadow:
+
+      -4px 4px 0 #da0641,
+
+      -3px 3px 0 #da0641,
+
+      -2px 2px 0 #da0641,
+
+      -1px 1px 0 #da0641,
+
+      4px -4px 0 #13f1fc,
+
+      3px -3px 0 #13f1fc,
+
+      2px -2px 0 #13f1fc,
+
+      1px -1px 0 #13f1fc
+
+    ;
+
+  }
+
+  75% {
+
+    text-shadow:
+
+      4px 4px 0 #13f1fc,
+
+      3px 3px 0 #13f1fc,
+
+      2px 2px 0 #13f1fc,
+
+      1px 1px 0 #13f1fc,
+
+      -4px -4px 0 #da0641,
+
+      -3px -3px 0 #da0641,
+
+      -2px -2px 0 #da0641,
+
+      -1px -1px 0 #da0641
+
+    ;
+
+  }
+
+  100% {
+
+    text-shadow:
+
+      4px -4px 0 #da0641,
+
+      3px -3px 0 #da0641,
+
+      2px -2px 0 #da0641,
+
+      1px -1px 0 #da0641,
+
+      -4px 4px 0 #13f1fc,
+
+      -3px 3px 0 #13f1fc,
+
+      -2px 2px 0 #13f1fc,
+
+      -1px 1px 0 #13f1fc
+
+    ;
+
+  }
+
+
+}
+/*fin de efecto letras chinas */
 
 
 .titulos{
@@ -159,6 +308,7 @@ body{
     width:290px;
     box-shadow: 0px 0px 23px 6px rgba(224,11,224,1) ;
     background-color: rgb(224, 11, 224) !important;
+    filter: brightness(1.45) ;
 
     
 }
@@ -245,3 +395,6 @@ body{
 /*modo claro oscuro */
 
 /*fin modo claro oscuro */
+
+
+
