@@ -263,6 +263,15 @@ body{
     
 }
 
+.titulos3{
+  font-family: 'Covered By Your Grace', ;
+  font-family: 'Rock Salt',;
+  color:#f500fd;
+  font-size:large;
+
+  
+}
+
 .botondecaracter{
    
     border-radius: 44px 44px 44px 44px;
@@ -351,8 +360,9 @@ body{
 
 .subrayado {
 
-    text-decoration: underline;
-    color:rgb(194, 66, 194);
+    text-decoration: none;
+    color:rgb(255, 0, 255);
+
 
 
 
@@ -365,4 +375,11 @@ body{
 /*fin modo claro oscuro */
 
 
+
+
+.lineaseparatoria{    
+  color:rgb(194, 66, 194);
+  background-color:rgb(194, 66, 194) ;
+
+}
 
