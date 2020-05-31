@@ -98,7 +98,7 @@ body{
     margin-top:7px;
     transition: 0.43s;/*velocidad en girar la foto */
 
-    animation-duration: 0.5s; /*velocidad de foto en colocarse */
+    animation-duration: 1.1s; /*velocidad de foto en colocarse */
     animation-name: slidein;
     
   }
@@ -141,13 +141,18 @@ body{
 
   text-align: left;
 
-  text-transform: uppercase;
+
 
   width: 100%;
 
-  animation: move linear 2000ms infinite;
 
-  z-index: 2
+
+  animation: move linear 7s infinite;
+
+
+  z-index: 2;
+
+  text-shadow:-1px 1px 0 #ff00f2, 1px -1px 0 #ff00f2;
 
 }
 
@@ -157,46 +162,32 @@ body{
 
   0% {
 
+
     text-shadow:
 
-      4px -4px 0 rgb(43, 255, 0),
+    -1px 1px 0 #ff00ea
 
-      3px -3px 0 rgb(43, 255, 0),
+      1px -1px 0 #ff00ea,
 
-      2px -2px 0 rgb(43, 255, 0),
 
-      1px -1px 0 rgb(43, 255, 0),
 
-      -4px 4px 0 #ff00ea,
 
-      -3px 3px 0 #ff00ea,
 
-      -2px 2px 0 #ff00ea,
-
-      -1px 1px 0 #ff00ea
     ;
 
   }
 
   25% {
 
+
+
     text-shadow:
 
-      -4px -4px 0 #ff00ea,
+    -1px 1px 0 #ff00ea
 
-      -3px -3px 0 #ff00ea,
+    1px -1px 0 #ff00ea,
 
-      -2px -2px 0 #ff00ea,
 
-      -1px -1px 0 #ff00ea,
-
-      4px 4px 0 rgb(43, 255, 0),
-
-      3px 3px 0 rgb(43, 255, 0),
-
-      2px 2px 0 rgb(43, 255, 0),
-
-      1px 1px 0 rgb(43, 255, 0)
 
     ;
 
@@ -206,21 +197,12 @@ body{
 
     text-shadow:
 
-      -4px 4px 0 rgb(43, 255, 0),
+      1px -1px 0 #ff00ea,
 
-      -3px 3px 0 rgb(43, 255, 0),
+      -1px 1px 0 #ff00ea
 
-      -2px 2px 0 rgb(43, 255, 0),
 
-      -1px 1px 0 rgb(43, 255, 0),
-
-      4px -4px 0 #ff00ea,
-
-      3px -3px 0 #ff00ea,
-
-      2px -2px 0 #ff00ea,
-
-      1px -1px 0 #ff00ea
+    ;
 
     ;
 
@@ -228,23 +210,13 @@ body{
 
   75% {
 
+   
     text-shadow:
 
-      4px 4px 0 #ff00ea,
 
-      3px 3px 0 #ff00ea,
+    -1px 1px 0 #ff00ea
 
-      2px 2px 0 #ff00ea,
-
-      1px 1px 0 #ff00ea,
-
-      -4px -4px 0 rgb(43, 255, 0),
-
-      -3px -3px 0 rgb(43, 255, 0),
-
-      -2px -2px 0 rgb(43, 255, 0),
-
-      -1px -1px 0 rgb(43, 255, 0)
+    1px -1px 0 #ff00ea,
 
     ;
 
@@ -254,21 +226,29 @@ body{
 
     text-shadow:
 
-      4px -4px 0 rgb(43, 255, 0),
 
-      3px -3px 0 rgb(43, 255, 0),
 
-      2px -2px 0 rgb(43, 255, 0),
+    1px -1px #ff00ea,
+    1px -1px #ff00ea,
+    1px -1px #ff00ea,
+    1px -1px #ff00ea,
+    1px -1px #ff00ea,
+    1px -1px #ff00ea,
+    1px -1px #ff00ea,
+    1px -1px #ff00ea,
+    1px -1px #ff00ea,
+    1px -1px #ff00ea,
+    1px -1px #ff00ea,
+      1px -1px #ff00ea,
+      1px -1px #ff00ea,
+      1px -1px #ff00ea,
+      1px -1px #ff00ea,
+      1px -1px #ff00ea,
+      1px -1px #ff00ea,
+      1px -1px #ff00ea,
+      1px -1px #ff00ea,
+      
 
-      1px -1px 0 rgb(43, 255, 0),
-
-      -4px 4px 0 #ff00ea,
-
-      -3px 3px 0 #ff00ea,
-
-      -2px 2px 0 #ff00ea,
-
-      -1px 1px 0 #ff00ea
 
     ;
 
