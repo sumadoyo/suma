@@ -147,12 +147,12 @@ body{
 
 
 
-  animation: move linear 7s infinite;
+  animation: move linear 0.88s infinite;
 
 
   z-index: 2;
 
-  text-shadow:-1px 1px 0 #ff00f2, 1px -1px 0 #ff00f2;
+  text-shadow:-1px 1px 0 #ff00ea86, 1px -1px 0 #ff00ea86;
 
 }
 
@@ -168,6 +168,8 @@ body{
     -1px 1px 0 #ff00ea
 
       1px -1px 0 #ff00ea,
+
+
 
 
 
@@ -214,9 +216,10 @@ body{
     text-shadow:
 
 
+    
     -1px 1px 0 #ff00ea
-
     1px -1px 0 #ff00ea,
+    
 
     ;
 
@@ -227,26 +230,11 @@ body{
     text-shadow:
 
 
+    -1px 1px #ff00ea,
+    1px -1px #ff00ea,
 
-    1px -1px #ff00ea,
-    1px -1px #ff00ea,
-    1px -1px #ff00ea,
-    1px -1px #ff00ea,
-    1px -1px #ff00ea,
-    1px -1px #ff00ea,
-    1px -1px #ff00ea,
-    1px -1px #ff00ea,
-    1px -1px #ff00ea,
-    1px -1px #ff00ea,
-    1px -1px #ff00ea,
-      1px -1px #ff00ea,
-      1px -1px #ff00ea,
-      1px -1px #ff00ea,
-      1px -1px #ff00ea,
-      1px -1px #ff00ea,
-      1px -1px #ff00ea,
-      1px -1px #ff00ea,
-      1px -1px #ff00ea,
+     
+
       
 
 
