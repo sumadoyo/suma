@@ -129,7 +129,7 @@ body{
     color:rgb(255, 0, 234);
     animation-iteration-count: initial;
 
-    color: #ffffff;
+    color: #000000;
 
   font: normal 140px Varela Round, sans-serif;
 
@@ -159,22 +159,21 @@ body{
 
     text-shadow:
 
-      4px -4px 0 #da0641,
+      4px -4px 0 rgb(43, 255, 0),
 
-      3px -3px 0 #da0641,
+      3px -3px 0 rgb(43, 255, 0),
 
-      2px -2px 0 #da0641,
+      2px -2px 0 rgb(43, 255, 0),
 
-      1px -1px 0 #da0641,
+      1px -1px 0 rgb(43, 255, 0),
 
-      -4px 4px 0 #13f1fc,
+      -4px 4px 0 #ff00ea,
 
-      -3px 3px 0 #13f1fc,
+      -3px 3px 0 #ff00ea,
 
-      -2px 2px 0 #13f1fc,
+      -2px 2px 0 #ff00ea,
 
-      -1px 1px 0 #13f1fc
-
+      -1px 1px 0 #ff00ea
     ;
 
   }
@@ -183,21 +182,21 @@ body{
 
     text-shadow:
 
-      -4px -4px 0 #13f1fc,
+      -4px -4px 0 #ff00ea,
 
-      -3px -3px 0 #13f1fc,
+      -3px -3px 0 #ff00ea,
 
-      -2px -2px 0 #13f1fc,
+      -2px -2px 0 #ff00ea,
 
-      -1px -1px 0 #13f1fc,
+      -1px -1px 0 #ff00ea,
 
-      4px 4px 0 #da0641,
+      4px 4px 0 rgb(43, 255, 0),
 
-      3px 3px 0 #da0641,
+      3px 3px 0 rgb(43, 255, 0),
 
-      2px 2px 0 #da0641,
+      2px 2px 0 rgb(43, 255, 0),
 
-      1px 1px 0 #da0641
+      1px 1px 0 rgb(43, 255, 0)
 
     ;
 
@@ -207,21 +206,21 @@ body{
 
     text-shadow:
 
-      -4px 4px 0 #da0641,
+      -4px 4px 0 rgb(43, 255, 0),
 
-      -3px 3px 0 #da0641,
+      -3px 3px 0 rgb(43, 255, 0),
 
-      -2px 2px 0 #da0641,
+      -2px 2px 0 rgb(43, 255, 0),
 
-      -1px 1px 0 #da0641,
+      -1px 1px 0 rgb(43, 255, 0),
 
-      4px -4px 0 #13f1fc,
+      4px -4px 0 #ff00ea,
 
-      3px -3px 0 #13f1fc,
+      3px -3px 0 #ff00ea,
 
-      2px -2px 0 #13f1fc,
+      2px -2px 0 #ff00ea,
 
-      1px -1px 0 #13f1fc
+      1px -1px 0 #ff00ea
 
     ;
 
@@ -231,21 +230,21 @@ body{
 
     text-shadow:
 
-      4px 4px 0 #13f1fc,
+      4px 4px 0 #ff00ea,
 
-      3px 3px 0 #13f1fc,
+      3px 3px 0 #ff00ea,
 
-      2px 2px 0 #13f1fc,
+      2px 2px 0 #ff00ea,
 
-      1px 1px 0 #13f1fc,
+      1px 1px 0 #ff00ea,
 
-      -4px -4px 0 #da0641,
+      -4px -4px 0 rgb(43, 255, 0),
 
-      -3px -3px 0 #da0641,
+      -3px -3px 0 rgb(43, 255, 0),
 
-      -2px -2px 0 #da0641,
+      -2px -2px 0 rgb(43, 255, 0),
 
-      -1px -1px 0 #da0641
+      -1px -1px 0 rgb(43, 255, 0)
 
     ;
 
@@ -255,21 +254,21 @@ body{
 
     text-shadow:
 
-      4px -4px 0 #da0641,
+      4px -4px 0 rgb(43, 255, 0),
 
-      3px -3px 0 #da0641,
+      3px -3px 0 rgb(43, 255, 0),
 
-      2px -2px 0 #da0641,
+      2px -2px 0 rgb(43, 255, 0),
 
-      1px -1px 0 #da0641,
+      1px -1px 0 rgb(43, 255, 0),
 
-      -4px 4px 0 #13f1fc,
+      -4px 4px 0 #ff00ea,
 
-      -3px 3px 0 #13f1fc,
+      -3px 3px 0 #ff00ea,
 
-      -2px 2px 0 #13f1fc,
+      -2px 2px 0 #ff00ea,
 
-      -1px 1px 0 #13f1fc
+      -1px 1px 0 #ff00ea
 
     ;
 
@@ -293,6 +292,7 @@ body{
     color:#00fd5e;
     font-size: small;
     text-shadow: 2px 2px #ff00ea;
+    
 }
 
 .botondecaracter{
