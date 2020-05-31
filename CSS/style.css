@@ -8,6 +8,7 @@
     padding-right: 0;
     padding-left: 0;
     float:left;
+
     
   }
 
@@ -90,18 +91,34 @@ body{
 }
 
 .logo{
+    
     align-items: center;
     width: 280px;
     height: auto;
     margin-top:7px;
+    transition: 0.5s;
 
+    animation-duration: 1s;
+    animation-name: slidein;
     
-}
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+
+  }
+
+
+
 .logo:hover{
     filter: saturate(180%);
     
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
 }
 
 
@@ -110,7 +127,9 @@ body{
 .h1{
     text-align:left;
     color:rgb(255, 0, 234);
+
 }
+
 
 .titulos{
     font-family: 'Covered By Your Grace', cursive;
@@ -126,7 +145,6 @@ body{
     font-size: small;
     text-shadow: 2px 2px #ff00ea;
 }
-
 
 .botondecaracter{
    
@@ -212,3 +230,18 @@ body{
 
 
 
+
+.subrayado {
+
+    text-decoration: underline;
+    color:rgb(194, 66, 194);
+
+
+
+}
+
+
+
+/*modo claro oscuro */
+
+/*fin modo claro oscuro */
