@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Rock+Salt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap');
+
+
+[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+    float:left;
+
+    
+  }
+
+.container{
+    width: 75%;
+  }
+
+
+body{
+    text-decoration: none !important;
+    background-color: black !important;
+    color:white !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-style: normal !important;
+    list-style:none !important;
+
+    
+    
+
+}
+
+.mitad{
+    position:relative;
+
+
+}
+
+.otramitad{
+    position:relative;
+    /*padding:1px; */
+    align-items: left;
+    float:left;
+    text-align:left;
+
+}
+
+
+.scroll{
+
+    overflow:auto;
+    max-width: 100%;
+
+    white-space: nowrap;
+    overflow-x: hidden;
+    max-height: 1090px;
+
+    
+}
+
+
+
+/*el css del scroll junto al .scroll */
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-track{
+
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 0, 234); 
+    background-image: -webkit-linear-gradient(90deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)
+}
+
+/*fin del css del scroll junto al .scroll */
+
+
+.botoneras{
+    align-items: center;
+    float:center;
+    text-align:left;
+    margin-left: 30px;
+
+    
+}
+
+
+
+.separador{
+    padding:10px;
+}
+
+.logo{
+    position:relative;
+
+    
+    align-items: center;
+    width: 280px;
+    height: auto;
+    margin-top:7px;
+    transition: 1.43s;/*velocidad en girar la foto */
+
+    animation-duration: 1.1s; /*velocidad de foto en colocarse */
+    animation-name: slidein;
+
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 1000%;
+      width: 100%; 
+
+    }
+
+
+
+  }
+
+
+
+
+.logo:hover{
+    filter: saturate(180%);
+    
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
+}
+
+
+/*principio letrass chinas */
+
+
+.h2{
+  text-align:left;
+  color:rgb(255, 0, 234);
+
+font: normal 100px Varela Round, sans-serif;
+
+height: 100px;
+
+left: 0;
+
+letter-spacing: 7px;
+
+text-align: left;
+
+width: 100%;
+
+margin-top: 20px;
+
+
+}
+
+
+.h1{
+    text-align:left;
+    color:rgb(255, 0, 234);
+    animation-iteration-count: initial;
+
+    color: #000000;
+
+  font: normal 140px Varela Round, sans-serif;
+
+  height: 140px;
+
+  left: 0;
+
+  letter-spacing: 5px;
+
+  text-align: left;
+
+
+
+  width: 100%;
+
+
+
+  animation: move linear 0.88s infinite;
+
+
+  z-index: 1;
+
+  text-shadow:-1px 1px 0 #ff00ea86, 1px -1px 0 #ff00ea86;
+
+}
+
+/*Animación para rotar las sombras*/
+
+@keyframes move {
+
+  0% {
+
+
+    text-shadow:
+
+    -1px 1px 0 #ff00ea
+
+      1px -1px 0 #ff00ea,
+
+
+
+
+
+
+
+    ;
+
+  }
+
+  25% {
+
+
+
+    text-shadow:
+
+    -1px 1px 0 #ff00ea
+
+    1px -1px 0 #ff00ea,
+
+
+
+    ;
+
+  }
+
+  50% {
+
+    text-shadow:
+
+      1px -1px 0 #ff00ea,
+
+      -1px 1px 0 #ff00ea
+
+
+    ;
+
+    ;
+
+  }
+
+  75% {
+
+   
+    text-shadow:
+
+
+    
+    -1px 1px 0 #ff00ea
+    1px -1px 0 #ff00ea,
+    
+
+    ;
+
+  }
+
+  100% {
+
+    text-shadow:
+
+
+    -1px 1px #ff00ea,
+    1px -1px #ff00ea,
+
+     
+
+      
+
+
+    ;
+
+  }
+
+
+}
+/*fin de efecto letras chinas */
+
+
+.titulos{
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Rock Salt', cursive;
+    color:#00fd5e;
+    font-size: xx-large;
+    text-shadow: 2px 2px #ff00ea;
+}
+.titulos2{
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Rock Salt', cursive;
+    color:#00fd5e;
+    font-size: small;
+    text-shadow: 2px 2px #ff00ea;
+    
+}
+
+.titulos3{
+  font-family: 'Covered By Your Grace', ;
+  font-family: 'Rock Salt',;
+  color:#f500fd;
+  font-size:large;
+  font-weight: bolder;
+
+  
+}
+
+.botondecaracter{
+   
+    border-radius: 44px 44px 44px 44px;
+    width:200px;
+    border: 0px solid #000000;
+ 
+
+
+}
+
+.botondecaracter:hover{
+    width:290px;
+    box-shadow: 0px 0px 23px 6px rgba(224,11,224,1) ;
+    background-color: rgb(224, 11, 224) !important;
+    filter: brightness(1.45) ;
+
+    
+}
+
+.botondecaracter:active{
+    width:290px;
+    box-shadow: 0px 0px 23px 6px rgb(43, 255, 0) ;
+
+    
+}
+
+
+.footerraro{
+    text-decoration: none;
+    list-style:none !important;
+    list-style-type:none;
+    text-align: center;
+}
+
+
+
+.nav{
+    position:relative;
+    
+
+
+	padding:100%;
+	color:#fff;
+	text-decoration: none;
+
+
+    margin: 11px;
+    padding: 16px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 90px;
+    align-items: right;
+
+}
+
+
+
+/*comienza el navbar */
+.active-purple-4 input[type=text]:focus:not([readonly]) {
+    border: 1px solid rgb(212, 171, 212);
+    box-shadow:  rgb(192, 161, 192);
+    background-color: #000000;
+    color:rgba(224,11,224,1);
+  }
+  .active-purple-3 input[type=text] {
+    border: 1px solid  rgba(224,11,224,1);
+    box-shadow: 0 0 0 1px  rgba(224,11,224,1);
+    background-color: #000000;
+
+  }
+/*termina el navbar */
+
+
+.twiiter{
+  position:relative;
+  width: 50px;
+  margin-top: 32px;
+  margin-left:15px;
+
+
+
+}
+
+.twiiter:hover{
+  position:relative;
+  width: 50px;
+  filter: saturate(500%);
+  
+
+}
+
+.escritura{
+    font-family: 'Hind Guntur', sans-serif;
+
+}
+
+.barra::-webkit-meter-optimum-value {
+    background: rgb(255, 0, 0);
+}
+
+
+.barra::-webkit-meter-suboptimum-value {
+    background: rgb(65, 196, 32);
+}
+
+
+
+
+.subrayado {
+
+    text-decoration: none;
+    color:rgb(255, 0, 255);
+}
+
+.subrayadoverde {
+
+  text-decoration: none;
+  color:rgb(43, 255, 0) ;
+}
+
+.subrayadorojo{
+
+  text-decoration: none;
+  color:rgb(255, 0, 0) ;
+}
+
+
+/*modo claro oscuro */
+
+/*fin modo claro oscuro */
+
+
+
+
+.lineaseparatoria{    
+  color:rgb(194, 66, 194);
+  background-color:rgb(194, 66, 194) ;
+
+}
+
