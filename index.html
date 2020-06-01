@@ -33,7 +33,7 @@
       
         
 
-    <div class="mitad col-4">
+    <div class="mitad col-lg-4 col-sm-12">
 
 
 
@@ -45,21 +45,24 @@
         <div class="">       
        
 
-        <h1 class="h1" href="www.youtube.comn">和 </h1>
+        <h1 class="col-12 h2 " href="www.youtube.comn">suma.es </h1>
 
         <p class="titulos2">El consultorio para programadores </p>
 
         <div class="separador"></div>
             
+            <a 
+            href="https://www.ebay.com/itm/DENON-Replacement-STICKER-DECALS-AUFKLEBER-PEGATINAS-AUTOCOLLANT-4-pcs/283749492241?hash=item4210c9a611:m:mamhZnTBQHxfo_OcMX81fWQ"
+            onclick=" return confirm(' Ayudanos pegando nuestra pegatina en tu laptop  ' )"
+            >
             <img 
             class="logo" 
-            src="imagenes/imagen.png" 
+            src="imagenes/prueba.png" 
             alt="logo" 
-            if onclick=" return confirm(' Ayudanos pegando nuestra pegatina en tu laptop ', 
-            location.href='./imagenes/pegatina.png')"
-            >
+      
+            ></a>
 
-
+<a href=""></a>
 
         <div class="separador"></div>   
         <div class="separador"></div>  
@@ -100,11 +103,11 @@
         
         <div class="separador"></div> 
 
-        <a href="" ><img class="botondecaracter" src="./imagenes/tirita.png" alt="tirita"></a>
-        
+
         
         <div class="separador"></div> 
         <div class="separador"></div> 
+
 
   
       
@@ -136,19 +139,26 @@
     </div> 
         
 
-    <div class="otramitad col-8">
+    <div class="otramitad col-lg-8 col-sm-12">
       <!-- ----------------------comienza el navbar ------------- -->
 
       <div class="nav col-12">
 
+        
+ 
 
+        <ul>
             <div class="active-purple-3 active-purple-4 mb-4 navbar-nav ml-auto">
               <div class="separador"></div> 
-              <div class="separador"></div> 
-                <input class="form-control  "  type="text" placeholder="Suma´s search " aria-label="Search">
+              <div class="separador "></div> 
+              
+              <li><input class="form-control  "  type="text" placeholder="Suma´s search " aria-label="Search"></li>
+                
                 
               </div>
-
+        </ul>
+        <a href="https://twitter.com/sumacode"><img src="./imagenes/twiiterazul.png" class="twiiter "  alt="logo twiiter"></a>
+   
 
 
       </div>
@@ -170,20 +180,22 @@
 
 
 
-        <p class="titulos3">Comandos de consola basicos </p>
+        <p class="titulos3">Comandos de la terminal basicos </p>
 
-        <text><text class="subrayado">ls:</text>para hacer una raiz de los elementos que tenermos. podemos usar ls -lha como parametros. </text><br>
-        <text><text class="subrayado">cd:</text> para entrar entre carpetajes.[ . / define la carpeta actual,  . . / va una carpeta atras.].</text><br>
-        <text><text class="subrayado">pwd:</text> para ver en que directorio estamos.</text><br>
-        <text><text class="subrayado">clear:</text> limpia la consola.</text><br>
-        <text><text class="subrayado">mkdir:</text> para crear una carpeta.</text><br>
-        <text><text class="subrayado">touch:</text> nos permite crear archivos.</text><br>
-        <text><text class="subrayado"> rmdir: </text>nos permite borrar una carpeta.</text><br>
-        <text><text class="subrayado"> rm: </text>nos permite borrar un archivo.</text><br>
-        <text><text class="subrayado"> history: </text>nos muestra el historial de comandos.</text><br>
-        <text><text class="subrayado"> vi: </text>nos muestra el editor de codigo.</text><br>
-        <ul><li><text class="subrayadoverde">esc + i: </text>para inicializar la escritura dentro de vi.</li></ul></text>
-        <ul><li><text class="subrayadoverde">esc + sift + z + z: </text>para salir y guardar el archivo vi. </li></ul></text>
+        <text><text class="subrayadoverde">ls:</text>para hacer una raiz de los elementos que tenermos. podemos usar ls -lha como parametros. </text><br>
+        <text><text class="subrayadoverde">cd:</text> para entrar entre carpetajes.[ . / define la carpeta actual,  . . / va una carpeta atras.].</text><br>
+        <text><text class="subrayadoverde">pwd:</text> para ver en que directorio estamos.</text><br>
+        <text><text class="subrayadoverde">clear:</text> limpia la consola.</text><br>
+        <text><text class="subrayadoverde">mkdir:</text> para crear una carpeta.</text><br>
+        <text><text class="subrayadoverde">touch:</text> nos permite crear archivos.</text><br>
+        <text><text class="subrayadoverde"> rmdir: </text>nos permite borrar una carpeta.</text><br>
+        <text><text class="subrayadoverde"> rm: </text>nos permite borrar un archivo.</text><br>
+        <text><text class="subrayadoverde"> history: </text>nos muestra el historial de comandos.</text><br>
+        <text><text class="subrayadoverde"> cat: </text>para abrir el archivo.</text><br>
+        <text><text class="subrayadoverde"> code: </text>para abrir el archivo con nuestro editor de codigo.</text><br>
+        <text><text class="subrayadoverde"> vi: </text>nos muestra el editor de codigo.</text><br>
+        <ul><li><text class="subrayado">esc + i: </text>para inicializar la escritura dentro de vi.</li></text>
+        <li><text class="subrayado">esc + sift + z + z: </text>para salir y guardar el archivo vi. </li></text></ul>
         
 
 
@@ -196,42 +208,73 @@
           <div class="separador"></div> 
           <meter class="barra" min="0" max="100"
           low="10" high="60"
-          optimum="100" value="30">
+          optimum="100" value="45">
         </div> <br>
 
         <p class="titulos3">Comandos basicos de Git </p>
 
-        <text><text class="subrayado">git init: </text>da inicio al repositorio de git. </text><br>
-        <text><text class="subrayado">git add . : </text> agrega el archivo al entorno de memoria staging. con git add . agregamos todos los archivos. 
+        <text><text class="subrayadoverde">git init: </text>da inicio al repositorio de git. </text><br>
+        <text><text class="subrayadoverde">git add . : </text> agrega el archivo al entorno de memoria staging. con git add . agregamos todos los archivos. 
         tambien podemos agregar un solo archivo; git add index.html </text><br>
-        <text><text class="subrayado">git commit -m"MENSAJE_DEL_COMMIT": </text>enviamos los archivos al repositorio 
-          <ul><li><text class="subrayadoverde"> -m </text>sirve para mandar un mensaje, si solo escribimos git commit nos enviara al editor vi para que guardemos desde ahi el commit</li></ul></text>
-        <text><text class="subrayado">git status: </text>nos enseña el estado de la base de datos del repositorio.</text><br>
-        <text><text class="subrayado">git show:</text> nos muestra el historial de commits</text><br>
-        <text><text class="subrayado">git log:</text> muestra toda la historia del archivo; git log index.html.</text><br>
-        <text><text class="subrayado">git push: </text>envia el archivo a un repositorio remoto.</text><br>
-        <text><text class="subrayado">git pull: </text>nos permite borrar un archivo.</text><br><br>
+        <text><text class="subrayadoverde">git commit -m"MENSAJE_DEL_COMMIT": </text>enviamos los archivos al repositorio 
+          <ul>
+          <li><text class="subrayado"> -m </text>sirve para mandar un mensaje, si solo escribimos git commit nos enviara al editor vi para que guardemos desde ahi el commit</li></text>
+          <li><text class="subrayado"> git config --global user.name: </text> la primera vez que hagamos un commit tenemos que definir nuestro email y nombre; git config --global user.name "suma"  git config --global user.email "suma@gmail.com".
+          si queremos cambiar estos valores una vez metidos; git config --global --unset user.name para borrar un dato de config global o 
+        git config --global -replace-all user.name "NEW_USER_NAME" para reemplazar un valor.</li></text>
+        </ul>
+        <text><text class="subrayadoverde">git status: </text>nos enseña el estado de la base de datos del repositorio.</text><br>
+        <text><text class="subrayadoverde">git show:</text> muestra toda la historia del archivo; git show index.html.</text><br>
+        <text><text class="subrayadoverde">git log:</text> nos muestra el historial de commits encriptados en hash.</text><br>
+        <text><text class="subrayadoverde">git diff:</text> nos muestra las diferencias entre dos hash de commits distintos.</text><br>
+        <text><text class="subrayadoverde">git push: </text>envia el archivo a un repositorio remoto.</text><br>
+        <text><text class="subrayadoverde">git pull: </text>nos permite borrar un archivo.</text><br><br>
+        <text><text class="subrayadoverde">git branch: </text>para crear una rama nueva.</text>
+        <ul><li><text class="subrayado">git branch -d: </text>para borrar la rama.</li></ul></text>
+        <text><text class="subrayadoverde">git merge: </text>para juntar mas de una rama. primero posicionarte en la ramaque queremos juntar las ramas y despues llamar a la otra rama; $master: git marge supercabecera</text><br>
 
-        <text><text class="subrayado">--help </text>podemos agregar el parametro help para buscar un comando o interpretar su funcionamiento.</text><br>
-        <text><text class="subrayado">gitk: </text>nos TODOS los detalles de los commits con una interfaz grafica.</text>
+        <br><text><text class="subrayadoverde">--help </text>podemos agregar el parametro help para buscar un comando o interpretar su funcionamiento.</text><br>
+        <text><text class="subrayadoverde">gitk: </text>nos TODOS los detalles de los commits con una interfaz grafica.</text><br>
+        <text><text class="subrayadorojo">git rebase: </text>es una mala practica. agarra toda la rama y la agrega a la otra rama, al hacer rebase se solapan TODOS los archivos. Siempre es mejor hacer un git merge.</text>
         
         
         <hr color="white" size=1  >
 
 
-        <text><text class="subrayado">Directorio ----------------------------> Staging <----------------------------> Repositorio</text></text><br>
-        <text><text class="subrayadoverde">git init <-------(git add . )-------> valor trackeado <------(git commit -m" ")---->    ' ' </text></text><br>
+        <text><text class="subrayadoverde">Directorio ----------------------------> Staging <----------------------------> Repositorio</text></text><br>
+        <text><text class="subrayado">git init <-------(git add . )-------> valor trackeado <------(git commit -m" ")---->    ' ' </text></text><br>
       
         
-        <hr color="white" size=1  >
+      <!-- ---------------------- otra informacion ------------- -->
+
+        <hr color="white" size=1  > 
         
         <div class="col-12 barra">
           <div class="separador"></div> 
           <meter class="barra" min="0" max="100"
-          low="10" high="60"
-          optimum="100" value="70">
+          low="10" high="50"
+          optimum="100" value="55">
         </div> <br>
 
+        <p class="titulos3">Git rm y Git reset</p>
+
+
+
+        <text><text class="subrayadoverde">git rm: </text>elimina archivos de git sin eliminar el historial de sistema de versiones. </text><br>
+        <ul>
+        <li><text class="subrayado">git rm --cached: </text>elimina archivos del commit y del area de staging pero los mantiene el disco duro. </li></text>
+        <li><text class="subrayado">git rm --force: </text>elimina los archivos de git y del disco duro.</li></text>
+      </ul>
+        
+        <text><text class="subrayadoverde">git reset: </text> nos ayuda a volver en el tiempo, (SIN LA POSIBILIDAD DE VOLVER a un commit futuro).</text><br>
+        <ul>
+          <li><text class="subrayado">git rm --soft: </text>borramos el historial y los registros de git pero mantenemos los estados de staging. </li></text>
+          <li><text class="subrayado">git rm --hard: </text>borra TODO.</li></text>
+        </ul>
+
+        <text><text class="subrayadoverde">git checkout: </text>para cambiar entre ramas, tambien podemos usarlo para ir a otro estado de memoria de git show para ver ese commit y volver despues al master.
+      tambien podemos volver a otro commit, trackearlo, hacer otro commit para guardar un commit anterior como nuevo, sin tener que borrar los commits anteriores. </text><br>
+        
 
          <!-- ---------------------- otra informacion ------------- -->
 
@@ -242,42 +285,94 @@
            <div class="separador"></div> 
            <meter class="barra" min="0" max="100"
            low="10" high="60"
-           optimum="100" value="50">
+           optimum="100" value="80">
          </div> <br>
 
+         <p class="titulos3">GitHub</p>
 
 
+         <text><text class="subrayadoverde">git remote add origin "URL_DEL_REPOSITORIO": </text>crea un origen remoto de nuestros archivos. </text><br>
+         <ul>
+         <li><text class="subrayado">git remote: </text>para ver lo git remotos. </li></text>
+         <li><text class="subrayado">git remote -v: </text>muestra los remotos de forma verbal. </li></text>
+       </ul>
 
-
-
-
-
-
-
-
-
-
-
-        <p class="subrayado">lorem ipsum <br></p></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <input type="submit"class="btn btn-sm btn-danger" name="ver codigo" onclick="return confirm('desea eliminar?¿')">
-   
+        <text><text class="subrayadoverde">git pull origin master: </text>para traer los datos de github al ordenador, es una buena practica primero hacer un git pull y despues un git push. </text><br>
+         
+         <text><text class="subrayadoverde">git push origin master: </text> envia la rama master al origen remoto del repositorio.</text><br>
+         <ul>
+           <li><text class="subrayado">git push origin master --allow-unrelated-histories: </text>la primera vez que hagamos un push a nuestro repositorio tenemos que enviar el --allow-unrelated-histories, nos 
+          entra en vi, para salir y guardar pulsamos esc+sift+z+z, despues de hacer esto volvemos a hacer un git push origin master normal. </li></text>
+         </ul>
+ 
+         <text><text class="subrayadoverde">git tag: </text>para crear los tags. </text><br>
+         <ul>
+          <li><text class="subrayado">git tag -a NOMBRE-DEL-TAG -m"MENSAJE" HASH_DEL_COMMIT: </text>la primera vez que hagamos un push a nuestro repositorio tenemos que enviar el --allow-unrelated-histories, nos 
+         entra en vi, para salir y guardar pulsamos esc+sift+z+z, despues de hacer esto volvemos a hacer un git push origin master normal. </li></text>
+            
+         <li><text class="subrayado">Git tag -d "NOMBRE_DEL_TAG" / Git push origin :refs/tags"NOMBRE_DEL_TAG": </text>
+          borra un tag del repositorio, primero Git tag -d "NOMBRE_DEL_TAG" y despues Git push origin :refs/tags"NOMBRE_DEL_TAG". </li></text>
+         
+        </ul>
 
         
+        <text><text class="subrayadoverde">git clone "PEGAR_URL_DEL_REPOSITORIO": </text>cuando queremos clonar un repositorio. Se suele utilizar cuando no tenemos permisos del proyecto en github </text><br>
+         
+
+        
+        <text><text class="subrayadoverde">git reflog: </text>es una buena practica, te va a resumir todos los detalles de tu proyecto. </text><br>
+         
+         
+      <!-- ---------------------- otra informacion ------------- -->
+
+
+      <hr class="lineaseparatoria" size=1 >
+        
+      <div class="col-12 barra">
+        <div class="separador"></div> 
+        <meter class="barra" min="0" max="100"
+        low="10" high="60"
+        optimum="100" value="100">
+      </div> <br>
+
+      <p class="titulos3">Git (comandos inusuales)</p>
+
+
+      <text><text class="subrayadoverde">git stash: </text>crea un estado de memoria. Se utiliza por ejemplo cuando queremos ir a otro hash pero no queremos hacer commit. </text><br>
+      <ul>
+      <li><text class="subrayado">git stash drop: </text>para borrar un stash. </li></text>
+      <li><text class="subrayado">git stash pop: </text>abrimos el stash. </li></text>
+      <li><text class="subrayado">git stash list: </text>nos enceña nuestros stash. </li></text>
+    </ul>
+
+     <text><text class="subrayadoverde">git clean: </text>limpia tu proyecto de archivos no deseados. </text><br>
+     <ul>
+      <li><text class="subrayado">git clean --dry-run: </text>simula lo que va a borrar sin borrarlo. </li></text>
+      <li><text class="subrayado">git clean -f: </text>borra todos los archivos listados. </li></text>
+    </ul>
+      
+      <text><text class="subrayadoverde">git cherry-pick: </text> traer commits viejos al head de mi rama master. git cherry-pick HASH_DEL_COMMIT</text><br>
+      
+      <text><text class="subrayadoverde">git commit --amend: </text> para traernos lo que estabamos haciendo a nuestro commit anterior. esto es una buena practica ya que n tenemos porque hacer otro commit nuevo.</text><br>
+      
+      <text><text class="subrayadoverde">git shortlog -sn -all --no-merges: </text> nos muestra las personas que han echo commits</text><br>
+      
+      <text><text class="subrayadoverde">git config --global alias.stats "shortlog -sn --all --no-merges": </text> le digo a git que me agregue en mi maquina actual
+    un alias llamado stats y que haga shortlog -sn --all --no-merges.</text><br>
+
+    <text><text class="subrayadoverde">git blame css/estilos.css -l35,60: </text> nos dice quien hizo los cambios del archivo css dese la linea 35 a la 60</text><br>
+      
+    <text><text class="subrayadoverde">git grep: </text>sirve para buscar. </text><br>
+    <ul>
+    <li><text class="subrayado">git grep -n gato: </text>aparecera un output diciendonos en que linea esta la palabra gato. </li></text>
+    <li><text class="subrayado">git grep -c gato: </text>aparecera un output diciendonos cuantas veces se repitela palabra gato. </li></text>
+  </ul>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
 
     </div>
 
