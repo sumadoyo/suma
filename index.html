@@ -51,7 +51,15 @@
 
         <div class="separador"></div>
             
-            <img class="logo" src="imagenes/imagen.png" alt="logo" onclick="return confirm('¿desea saber mas sobre Suma 和?')">
+            <img 
+            class="logo" 
+            src="imagenes/imagen.png" 
+            alt="logo" 
+            if onclick=" return confirm(' Ayudanos pegando nuestra pegatina en tu laptop ', 
+            location.href='./imagenes/pegatina.png')"
+            >
+
+
 
         <div class="separador"></div>   
         <div class="separador"></div>  
@@ -165,24 +173,25 @@
         <p class="titulos3">Comandos de consola basicos </p>
 
         <text><text class="subrayado">ls:</text>para hacer una raiz de los elementos que tenermos. podemos usar ls -lha como parametros. </text><br>
-        <text><text class="subrayado">cd:</text> para entrar entre carpetajes.[./ define la carpeta actual, ../ va una carpeta atras.].</text><br>
+        <text><text class="subrayado">cd:</text> para entrar entre carpetajes.[ . / define la carpeta actual,  . . / va una carpeta atras.].</text><br>
         <text><text class="subrayado">pwd:</text> para ver en que directorio estamos.</text><br>
         <text><text class="subrayado">clear:</text> limpia la consola.</text><br>
-        <text><text class="subrayado">mkdir:</text> para elimiinar un carpetaje.</text><br>
+        <text><text class="subrayado">mkdir:</text> para crear una carpeta.</text><br>
         <text><text class="subrayado">touch:</text> nos permite crear archivos.</text><br>
         <text><text class="subrayado"> rmdir: </text>nos permite borrar una carpeta.</text><br>
-        <text><text class="subrayado"> history: </text>nos muestra el historial de comandos.</text><br>
         <text><text class="subrayado"> rm: </text>nos permite borrar un archivo.</text><br>
+        <text><text class="subrayado"> history: </text>nos muestra el historial de comandos.</text><br>
+        <text><text class="subrayado"> vi: </text>nos muestra el editor de codigo.</text><br>
+        <ul><li><text class="subrayadoverde">esc + i: </text>para inicializar la escritura dentro de vi.</li></ul></text>
+        <ul><li><text class="subrayadoverde">esc + sift + z + z: </text>para salir y guardar el archivo vi. </li></ul></text>
+        
 
 
          <!-- ---------------------- otra informacion ------------- -->
 
 
         <hr class="lineaseparatoria" size=1 >
-
-        <div class="separador"></div> 
         
-
         <div class="col-12 barra">
           <div class="separador"></div> 
           <meter class="barra" min="0" max="100"
@@ -192,9 +201,49 @@
 
         <p class="titulos3">Comandos basicos de Git </p>
 
+        <text><text class="subrayado">git init: </text>da inicio al repositorio de git. </text><br>
+        <text><text class="subrayado">git add . : </text> agrega el archivo al entorno de memoria staging. con git add . agregamos todos los archivos. 
+        tambien podemos agregar un solo archivo; git add index.html </text><br>
+        <text><text class="subrayado">git commit -m"MENSAJE_DEL_COMMIT": </text>enviamos los archivos al repositorio 
+          <ul><li><text class="subrayadoverde"> -m </text>sirve para mandar un mensaje, si solo escribimos git commit nos enviara al editor vi para que guardemos desde ahi el commit</li></ul></text>
+        <text><text class="subrayado">git status: </text>nos enseña el estado de la base de datos del repositorio.</text><br>
+        <text><text class="subrayado">git show:</text> nos muestra el historial de commits</text><br>
+        <text><text class="subrayado">git log:</text> muestra toda la historia del archivo; git log index.html.</text><br>
+        <text><text class="subrayado">git push: </text>envia el archivo a un repositorio remoto.</text><br>
+        <text><text class="subrayado">git pull: </text>nos permite borrar un archivo.</text><br><br>
+
+        <text><text class="subrayado">--help </text>podemos agregar el parametro help para buscar un comando o interpretar su funcionamiento.</text><br>
+        <text><text class="subrayado">gitk: </text>nos TODOS los detalles de los commits con una interfaz grafica.</text>
+        
+        
+        <hr color="white" size=1  >
 
 
+        <text><text class="subrayado">Directorio ----------------------------> Staging <----------------------------> Repositorio</text></text><br>
+        <text><text class="subrayadoverde">git init <-------(git add . )-------> valor trackeado <------(git commit -m" ")---->    ' ' </text></text><br>
+      
+        
+        <hr color="white" size=1  >
+        
+        <div class="col-12 barra">
+          <div class="separador"></div> 
+          <meter class="barra" min="0" max="100"
+          low="10" high="60"
+          optimum="100" value="70">
+        </div> <br>
 
+
+         <!-- ---------------------- otra informacion ------------- -->
+
+
+         <hr class="lineaseparatoria" size=1 >
+        
+         <div class="col-12 barra">
+           <div class="separador"></div> 
+           <meter class="barra" min="0" max="100"
+           low="10" high="60"
+           optimum="100" value="50">
+         </div> <br>
 
 
 

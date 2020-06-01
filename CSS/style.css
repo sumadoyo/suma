@@ -96,7 +96,7 @@ body{
     width: 280px;
     height: auto;
     margin-top:7px;
-    transition: 0.43s;/*velocidad en girar la foto */
+    transition: 1.43s;/*velocidad en girar la foto */
 
     animation-duration: 1.1s; /*velocidad de foto en colocarse */
     animation-name: slidein;
@@ -362,10 +362,12 @@ body{
 
     text-decoration: none;
     color:rgb(255, 0, 255);
+}
 
+.subrayadoverde {
 
-
-
+  text-decoration: none;
+  color:rgb(43, 255, 0) ;
 }
 
 
